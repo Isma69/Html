@@ -1,0 +1,62 @@
+.list {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0;
+    background-color: #0066cc;
+}
+
+.home:hover {
+    background-color: #004080;
+    color: #ffcc00;
+}
+
+.about:active {
+    background-color: #00264d;
+    color: #ffffff;
+}
+
+.projects:focus {
+    border: 2px solid #ffcc00;
+}
+
+.contact:visited {
+    color: #cccccc;
+}
+
+h1 {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+}
+
+article {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+
+#carre {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation: moveRight 2s linear infinite;
+}
+
+@keyframes moveRight {
+    from {
+        left: 0;
+    }
+    to {
+        left: 300px;
+    }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .box {
+            text-align: center;
+            line-height: 200px;
+            position: relative;
+            transition: transform 0.5s ease, opacity 0.5s ease;
+        }
+
+        .box1 {
+
+            background-color: #3b6987; 
+            z-index: 1;
+            width: 150px;
+            height: 150px;
+        }
+
+        .box2 {
+            background-color: #cb36e2; 
+            z-index: 2;
+            transform: rotate(45deg);
+            opacity: 0.5; 
+            width: 200px;
+            height: 200px;
+        }
+        .box3 {
+            background-color: #e7de3c; 
+            z-index: 0;
+            transform: rotate(120deg);
+            opacity: 0.8; 
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+    <title>Exemple Propriétés CSS</title>
+</head>
+<body>
+    <div class="box box1">
+        <p>Contenu de la boîte 1</p>
+    </div>
+    <div class="box box2">
+        <p>Contenu de la boîte 2</p>
+    </div>
+    <div class="box box3">
+        <p>Contenu de la boîte 3</p>
+    </div>
+</body>
+</html>
